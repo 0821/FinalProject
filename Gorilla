@@ -1,0 +1,20 @@
+public class Gorilla extends Animal {
+  public Gorilla(int weight, int age, int speed, int acceleration) {
+		super(age, weight, speed, acceleration);
+	}
+
+	public void name() {
+		System.out.println("Donkey Kong");
+	}
+
+	public void talk() {
+		System.out.println("Whoa Whoa");
+	}
+
+	public static int walk(int speed) {
+		int s;
+		s = speed;
+		return (0 + (int) (Math.random() * s));
+	}
+	
+}
