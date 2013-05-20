@@ -1,0 +1,30 @@
+public class Testprogram {
+  public static void main(String args[]) {
+		Gorilla object = new Gorilla(5, 500, 40, 10);
+		Human object1 = new Human(21, 150, 25, 5);
+		Robot object2 = new Robot(3, 1000, 100, 20);
+		// Gorilla
+		object.name();
+		object.talk();
+		System.out.println("Gorilla weight:" + object.getWeight() + "lbs"
+				+ "\nGorilla age:" + object.getAge() + " Years"
+				+ "\nGorilla speed:" + object.getSpeed() + " mph"
+				+ "\nGorilla acceleration:" + object.getAcceleration() + "ft/s");
+
+		// Human
+		object1.name();
+		object1.talk();
+		System.out.println("Human weight:" + object1.getWeight() + "lbs"
+				+ "\nHuman age:" + object1.getAge() + "Years"
+				+ "\nHuman speed:" + object1.getSpeed() + " mph"
+				+ "\nHuman acceleration:" + object1.getAcceleration()+ "ft/s");
+
+		// Robot
+		object2.name();
+		object2.talk();
+		System.out.println("Robot weight:" + object2.getWeight() + "lbs"
+				+ "\nRobot age:" + object2.getAge() + "Years"
+				+ "\nRobot speed:" + object2.getSpeed() + " mph"
+				+ "\nRobot acceleration:" + object2.getAcceleration() + "ft/s");
+	}
+}
