@@ -1,0 +1,22 @@
+public class Robot extends Animal {
+  public Robot(int weight, int age, int speed, int acceleration) {
+		super(age, weight, speed, acceleration);
+	}
+
+	public void name() {
+		System.out.println("Metroid");
+	}
+
+	public void talk() {
+		System.out
+				.println("He - e-e ll -o-o My na--me is Me-e-e tro-o-o-o i-i-i-i d-d-d");
+	}
+
+	public static int walk(int speed) {
+		int k;
+		k = speed;
+		return 0 + (int) (Math.random() * k);
+	}
+}
+
+
