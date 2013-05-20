@@ -1,0 +1,21 @@
+public class Human extends Animal {
+
+  public Human(int weight, int age, int speed, int acceleration) {
+		super(age, weight, speed, acceleration);
+	}
+
+	public void name() {
+		System.out.println("Peter");
+	}
+
+	public void talk() {
+		System.out.println("Hello My name is Peter");
+	}
+
+	public static int walk(int speed) {
+		int m;
+		m = speed;
+		return 0 + (int) (Math.random() * m);
+	}
+	
+}
